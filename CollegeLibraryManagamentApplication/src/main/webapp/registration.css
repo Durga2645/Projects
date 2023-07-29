@@ -1,0 +1,44 @@
+input
+{
+	width:250px;
+	padding:10px;
+	font-size:20px;
+	font-family:inherit;
+	border-radius:10px;
+	border:2px solid black
+}
+select
+{
+	width:270px;
+	padding:10px;
+	font-size:20px;
+	font-family:inherit;
+	border-radius:10px;
+	border:2px solid black
+}
+.div1
+{
+	font-size:20px;
+	padding:5px;
+	width:35%;
+	margin-left:80px;
+	background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+	color:white;
+	border-radius:5px;
+	text-align:center;
+	margin-left:32%;
+	margin-top:5%;
+}
+body
+{
+	background-image:url(lib.jpg)
+}
+a
+{
+	font-size:20px;
+	color:black;
+	padding:3px;
+	background-color:white;
+	text-decoration:none;
+	border-radius:5px;
+}
