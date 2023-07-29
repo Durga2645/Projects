@@ -1,0 +1,52 @@
+#Project1-CLMA
+This is a college Library Management Application.
+
+Two main modules (Admin,Student)
+-Admin can register and login(MiddlewareServices- password reset,authentication,unique email,password and mobilenumber)
+
+Admin operations(librarian)
+
+-add a book to the library
+
+-delete a book to the library
+
+-update any book details in the library
+    *book cannot be duplicated(admin cannot add two same books having all details same)
+    
+-issuing a book to the students(MiddlewareServices-student checking,book availability checking,book quantity checking)
+      *each student can be issued only three books at a time.
+      *each student cannot take same book at a time which is already issued
+      *each student can be given 13 days to return the books or otherwise for each day 10 rupess fine for each book of the student
+      
+
+-returning a book(MiddlewareServices-student availability checking,book availability checking,book is issued or not checking,paying fine option)
+      *students can return the book by providing the required details                                   
+      *fine will be calculated if student takes more than 13 days to return a book
+      *if fine paid by the then admin can have the paid option when he clicks the the particular book from the student will be returned otherwise the book will not be returned
+      
+-view all students
+      *admin can view all the students who are available
+      
+-view all books
+       *admin can view all the book which are available
+       
+-view not returned books
+      *admin can view the details like student id book id and names  which are  issued to the students and are not retuned
+      
+-view all the history
+      *admin can view all issued and returned from the start of the application to til now.
+      
+
+Student operations
+
+
+-student can serach the books by name or title or author or category
+
+-view issued books
+      *students can view the books which are issued to them in their dashboard
+
+
+Language used : Java
+Technologies used : JDBC , Servlets ,JSP , JSTL ,CSS
+Server - Tomcat
+Database- MYSQL
